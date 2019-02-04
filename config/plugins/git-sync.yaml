@@ -1,0 +1,23 @@
+enabled: false
+folders:
+  - pages
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+webhook: /_git-sync-56332c894144
+webhook_enabled: '0'
+webhook_secret: f4072c1943603f508136ee7212c097acb65b79f2255af57b
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: GitSync
+  email: git-sync@trilby.media
+  bin: git
+logging: false
+password: gitsync-def50200ca3a993ede12eb46e183091a22f5a620b711f597484ae6b20be4a0050c2ec82d8700ac8114c5ba1344544e0e7c9f7c435817867f72456f1e2f001f4e3843aabebfe3957aa6bce8856ac5c0dbcc25be5c
