@@ -1,4 +1,4 @@
 enabled: true
-text_var: 'Updated: {{ page.modified|date("m/d/Y") }}'
-pretext: 'Updated:'
+pretext: 'This page was last updated:'
 placement: bottom
+text_var: 'Updated: {{ page.modified|date("m/d/Y") }}'
