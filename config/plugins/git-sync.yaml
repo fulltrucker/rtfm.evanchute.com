@@ -6,9 +6,9 @@ folders:
   - config
   - data
 sync:
-  on_save: true
-  on_delete: true
-  on_media: true
+  on_save: false
+  on_delete: false
+  on_media: false
   cron_enable: false
   cron_at: '0 12,23 * * *'
 webhook: /_git-sync-56332c894144
@@ -24,6 +24,6 @@ git:
   email: evan.chute@gmail.com
   bin: git
 logging: false
-password: gitsync-def5020085db42f2231e5e8e341cddfa34092d70a3c8fd95a4f2d82a1c3bbcf002fe6c9c2efde70a1cd50ae3788ea7bd0d2f7a50fa5aca84fc4e474f1fd47502f93ff367e5860b4f1a38dd512f4460926f9a2126e9d1d2a020fb7fdfc8c7b0178ba1c4c6
 repository: 'https://github.com/fulltrucker/rtfm.evanchute.com'
 user: fulltrucker
+password: gitsync-def5020085db42f2231e5e8e341cddfa34092d70a3c8fd95a4f2d82a1c3bbcf002fe6c9c2efde70a1cd50ae3788ea7bd0d2f7a50fa5aca84fc4e474f1fd47502f93ff367e5860b4f1a38dd512f4460926f9a2126e9d1d2a020fb7fdfc8c7b0178ba1c4c6
