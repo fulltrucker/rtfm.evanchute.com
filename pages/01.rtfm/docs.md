@@ -8,10 +8,6 @@ process:
     twig: true
 ---
 
-### Read The Fucking Manual
-
-# RTFM
-
 ## LOL Wut?
 
 Because ain't nobody got time to remember e'ery gotdammed thing. This is a collection of HOW-TOs and other whatnot I've collected over time. Installing a CMS on the command line, common Git workflows, and whatever else I can think of. Most of The Manual™ is categorized, but there might be some random stuff in this section as well. You'll figure it out, and if not: that's what the search bar is for.
