@@ -16,7 +16,7 @@ Because ain't nobody got time to remember e'ery gotdammed thing. This is a colle
 
 ## Ch-ch-ch-ch-changes!
 
-The Manual™ is made with [Grav CMS](https://getgrav.org/), stored in a [GitHub repository](https://github.com/fulltrucker), and edited in [Typora](https://typora.io/) using [Markdown](/user-guide-and-documentation/using-markdown). ~~Okay, it's not actually stored in GitHub at the moe, but it'll be stored there or in BitBucket eventually.~~ Mainly this site is for to learn a bit about Grav, and syncing with a Git repo is one of the things on my list. 
+The Manual™ is made with [Grav CMS](https://getgrav.org/), stored in a [GitHub repository](https://github.com/fulltrucker/rtfm.evanchute.com), and edited in [Typora](https://typora.io/) using [Markdown](/user-guide-and-documentation/using-markdown). ~~Okay, it's not actually stored in GitHub at the moe, but it'll be stored there or in BitBucket eventually.~~ Mainly this site is for to learn a bit about Grav, and syncing with a Git repo is one of the things on my list. 
 
 Also right now, I'm the only one maintaining this Bad Larry, but who knows what will happen in the future. Future Me might need help.
 

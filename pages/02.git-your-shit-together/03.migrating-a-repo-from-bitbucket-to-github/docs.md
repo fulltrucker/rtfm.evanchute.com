@@ -34,8 +34,8 @@ Think about whether or not to change the repo name/url. Since the URL is definit
 1. Confirm that shit worked
 1. Delete the BitBucket repo
 1. Update the remote config of any known/shared clones with the new URL and do a git fetch. This can be accomplished in one of three ways:
-  - Edit the URL in the .git/config file 
+  - Edit the URL in the `.git/config` file 
   - Remove and re-add the remote, usually the origin:
-    - git remote remove origin
-    - git remote add origin <url>
-  - Do a git remote set-url origin <URL> (this might be the easiest/cleanest way, see the [documentation here](https://help.github.com/articles/changing-a-remote-s-url/))
+    - `git remote remove origin`
+    - `git remote add origin` [URL]
+  - Do a `git remote set-url origin` [URL] (this might be the easiest/cleanest way, see the [documentation here](https://help.github.com/articles/changing-a-remote-s-url/))
