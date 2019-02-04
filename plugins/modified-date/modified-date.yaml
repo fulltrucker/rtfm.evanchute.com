@@ -1,0 +1,3 @@
+enabled: true
+pretext: Text displayed before the last modified date (disable plugin to remove)
+placement: Where to display the modified date
