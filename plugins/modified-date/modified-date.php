@@ -59,6 +59,12 @@ class ModifiedDatePlugin extends Plugin
         $content = $e['page']->getRawContent();
 
         // Prepend the output with the custom text and set back on the page
-        $e['page']->setRawContent("<em>" . $pretext . " {{ page.modified|date('n-j-Y') }}</em>\n\n" . $content);
+        if ($placement == 'top') {
+          $e['page']->setRawContent("<em>" . $pretext . " {{ page.modified|date('n-j-Y') }}</em>\n\n" . $content);
+        } elseif ($placement == 'bottom') {
+          $e['page']->setRawContent($content . "\n\n<em>" . $pretext . " {{ page.modified|date('n-j-Y') }}</em>");          
+        } else {
+          $e['page']->setRawContent($content);          
+        }
     }
 }
