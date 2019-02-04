@@ -34,7 +34,21 @@ form:
       type: select
       label: PLUGIN_MODIFIED_DATE.PLACEMENT
       help: PLUGIN_MODIFIED_DATE.PLACEMENT_HELP
+      classes: fancy
       default: 'bottom'
       options:
         'top': 'top'
         'bottom': 'bottom'
+    page_type:
+      type: select
+      multiple: true
+      label: PLUGIN_MODIFIED_DATE.PAGE_TYPE
+      classes: fancy
+      options:
+        'default': 'default'
+        'docs': 'docs'
+        'chapter': 'chapter'
+      selectize:
+        create: true
+      validate:
+        type: commalist

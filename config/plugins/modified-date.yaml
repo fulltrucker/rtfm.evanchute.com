@@ -1,4 +1,6 @@
 enabled: true
 pretext: 'This page was last updated:'
 placement: bottom
-text_var: 'Updated: {{ page.modified|date("m/d/Y") }}'
+page_type:
+  - default
+  - docs

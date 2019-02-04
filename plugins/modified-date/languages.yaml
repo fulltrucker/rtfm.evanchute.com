@@ -4,3 +4,4 @@ en:
     PRE_TEXT_HELP: Text to display before the last modified date
     PLACEMENT: Placement
     PLACEMENT_HELP: Either `top` or `bottom`
+    PAGE_TYPE: Page types to display the date on:
