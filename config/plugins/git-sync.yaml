@@ -1,6 +1,10 @@
-enabled: false
+enabled: true
 folders:
   - pages
+  - themes
+  - plugins
+  - config
+  - data
 sync:
   on_save: true
   on_delete: true
@@ -8,7 +12,7 @@ sync:
   cron_enable: false
   cron_at: '0 12,23 * * *'
 webhook: /_git-sync-56332c894144
-webhook_enabled: '0'
+webhook_enabled: '1'
 webhook_secret: f4072c1943603f508136ee7212c097acb65b79f2255af57b
 branch: master
 remote:
@@ -16,8 +20,10 @@ remote:
   branch: master
 git:
   author: gituser
-  name: GitSync
-  email: git-sync@trilby.media
+  name: 'Evan Chute'
+  email: evan.chute@gmail.com
   bin: git
 logging: false
-password: gitsync-def50200ca3a993ede12eb46e183091a22f5a620b711f597484ae6b20be4a0050c2ec82d8700ac8114c5ba1344544e0e7c9f7c435817867f72456f1e2f001f4e3843aabebfe3957aa6bce8856ac5c0dbcc25be5c
+password: gitsync-def5020085db42f2231e5e8e341cddfa34092d70a3c8fd95a4f2d82a1c3bbcf002fe6c9c2efde70a1cd50ae3788ea7bd0d2f7a50fa5aca84fc4e474f1fd47502f93ff367e5860b4f1a38dd512f4460926f9a2126e9d1d2a020fb7fdfc8c7b0178ba1c4c6
+repository: 'https://github.com/fulltrucker/rtfm.evanchute.com'
+user: fulltrucker
