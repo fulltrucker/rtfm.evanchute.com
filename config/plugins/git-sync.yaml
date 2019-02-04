@@ -1,0 +1,29 @@
+enabled: true
+folders:
+  - pages
+  - themes
+  - plugins
+  - config
+  - data
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+webhook: /_git-sync-56332c894144
+webhook_enabled: '1'
+webhook_secret: f4072c1943603f508136ee7212c097acb65b79f2255af57b
+branch: master
+remote:
+  name: origin
+  branch: master
+git:
+  author: gituser
+  name: 'Evan Chute'
+  email: evan.chute@gmail.com
+  bin: git
+logging: false
+password: gitsync-def50200cf2ab576b88f3720392516ce7166db94690fa5b7e69fbc0a230861d107501532fbd1a2f3153834162ed1011b834bc0aa913be727fde29f8b742413106e04614f3b71d5e7ee214fb0ca4d10af1c68966fdf4fa552ecaaf4f90d578c1bc8b06441
+repository: 'https://github.com/fulltrucker/rtfm.evanchute.com'
+user: fulltrucker
