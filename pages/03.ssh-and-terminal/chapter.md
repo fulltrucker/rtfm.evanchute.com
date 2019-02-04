@@ -6,3 +6,5 @@ taxonomy:
 ---
 
 # SSH and Terminal
+
+![Terminal Window](terminal.png)
