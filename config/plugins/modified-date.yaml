@@ -2,4 +2,4 @@ enabled: true
 pretext: 'This page was last updated:'
 placement: bottom
 page_types:
-  - docs
+  - Docs
