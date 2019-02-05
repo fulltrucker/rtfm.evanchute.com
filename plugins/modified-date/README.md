@@ -33,16 +33,10 @@ Before configuring this plugin, you should copy the `user/plugins/modified-date/
 Here is the default configuration and an explanation of available options:
 
 ```yaml
-enabled: true
+enabled: true or false
 pretext: The text that is displayed before the last modified date. Simple text field, can accept Twig and Markdown.
-placement: Whether you want to display the modified date at the top or the bottom of the content
-  options:
-    - top
-    - bottom
-page_types: The page templates (types) on which to display the modified date
-  options:
-    - This should display a list of all templates dynamically generated from the theme.
-    - The list will also include partials, it's adviseable to only select actual page templates.
+placement: Whether you want to display the modified date at the top or the bottom of the content.
+page_types: The page templates (types) on which to display the modified date. This should display a list of all templates dynamically generated from the theme. The list will also include partials, it's adviseable to only select actual page templates.
 ```
 
 Note that if you use the admin plugin, a file with your configuration, and named modified-date.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.

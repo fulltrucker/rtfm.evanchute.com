@@ -65,13 +65,6 @@ class ModifiedDatePlugin extends Plugin
             } else {
                 $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** " . $modifiedDate . "_");          
             }
-/*
-            if ($placement == 'top') {
-                $e['page']->setRawContent("_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_\n\n---\n\n" . $content);
-            } else {
-                $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_");          
-            }
-*/
         }
     }
 }
