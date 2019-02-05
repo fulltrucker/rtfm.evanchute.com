@@ -1,3 +1,0 @@
-[submodule "plugins/modified-date"]
-	path = plugins/modified-date
-	url = git@github.com:fulltrucker/modified-date.git
