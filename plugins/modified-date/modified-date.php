@@ -49,6 +49,9 @@ class ModifiedDatePlugin extends Plugin
     public function onPageContentRaw(Event $e)
     {
         // Only do something if the page type is in our list of allowed types
+        // TO-DO: make the config page load page types dynamically from the theme
+        $template = $this->grav['page']->template();
+        $pageType = ucfirst($template);
         $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
         $pageType = ucfirst($this->grav['page']->template());
         if (in_array($pageType, $allowedPageTypes)) {
