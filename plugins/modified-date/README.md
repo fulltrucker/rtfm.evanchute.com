@@ -62,7 +62,7 @@ Right now the page types are hard-coded to the templates in the Learn2 theme. Id
 
 ## To Do
 
-- Generate page types / templates dynamically from the theme.
+- ~~Generate page types / templates dynamically from the theme.~~
 - Move the page type check login from `onPageContentRaw()` to `onPluginsInitialized()` so it just doesn't even fire if we're not on the right page. Maybe even replace the `isAdmin()` check.
 - Figure out how to use a `template` file to append/prepend to the page content, rather than munging the entire content. This would seem cleaner.
 
