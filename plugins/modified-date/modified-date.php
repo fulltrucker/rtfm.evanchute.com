@@ -2,7 +2,6 @@
 namespace Grav\Plugin;
 
 use Grav\Common\Plugin;
-use \Grav\Common\Page\Page;
 use RocketTheme\Toolbox\Event\Event;
 
 /**
@@ -38,10 +37,6 @@ class ModifiedDatePlugin extends Plugin
             return;
         }
 
-        // Get the current page template, eventually we'll compare this to
-        // our list of allowed page types. NB the code below doesn't work.
-        // $pageType = $this->grav['page']->template();
-
         // Enable the main event we are interested in
         $this->enable([
             'onPageContentRaw' => ['onPageContentRaw', 0]
@@ -49,27 +44,29 @@ class ModifiedDatePlugin extends Plugin
     }
 
     /**
-     * Do some work for this event, full details of events can be found
-     * on the learn site: http://learn.getgrav.org/plugins/event-hooks
-     *
      * @param Event $e
      */
     public function onPageContentRaw(Event $e)
     {
-        // Get variables from the plugin configuration
-        $pretext = $this->grav['config']->get('plugins.modified-date.pretext');
-        $placement = $this->grav['config']->get('plugins.modified-date.placement');
+        // Only do something if the page type is in our list of allowed types
+        // TO-DO: make the config page load page types dynamically from the theme
+        $pageType = $this->grav['page']->template();
+        $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
+        if (in_array($pageType, $allowedPageTypes)) {
 
-        // Get the current raw content
-        $content = $e['page']->getRawContent();
-        
-        // Modify the output with the pre-text, modified date, and set back on the page
-        if ($placement == 'top') {
-          $e['page']->setRawContent("_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_\n\n---\n\n" . $content . "\n\n");
-        } elseif ($placement == 'bottom') {
-          $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_" . "\n\n");          
-        } else {
-          $e['page']->setRawContent($content . "\n\n");          
+            // Get variables from the plugin configuration
+            $pretext = $this->grav['config']->get('plugins.modified-date.pretext');
+            $placement = $this->grav['config']->get('plugins.modified-date.placement');
+    
+            // Get the current raw content
+            $content = $e['page']->getRawContent();
+            
+            // Modify the output with the pre-text, modified date, and chuck it back on the page
+            if ($placement == 'top') {
+                $e['page']->setRawContent("_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_\n\n---\n\n" . $content);
+            } else {
+                $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_");          
+            }
         }
     }
 }

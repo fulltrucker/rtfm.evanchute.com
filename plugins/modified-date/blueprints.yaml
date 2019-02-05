@@ -39,7 +39,7 @@ form:
       options:
         'top': 'top'
         'bottom': 'bottom'
-    page_type:
+    page_types:
       type: select
       multiple: true
       label: PLUGIN_MODIFIED_DATE.PAGE_TYPE
