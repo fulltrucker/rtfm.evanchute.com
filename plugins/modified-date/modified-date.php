@@ -50,23 +50,28 @@ class ModifiedDatePlugin extends Plugin
     {
         // Only do something if the page type is in our list of allowed types
         $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
-        $pageType = $this->grav['page']->template();
-        $pageType = ucfirst($pageType);
+        $pageType = ucfirst($this->grav['page']->template());
         if (in_array($pageType, $allowedPageTypes)) {
 
-            // Get variables from the plugin configuration
+            // Get the building blocks for our new rawContent
+            $content = $e['page']->getRawContent();
+            $modifiedDate = date('n-j-Y', $this->grav['page']->modified());
             $pretext = $this->grav['config']->get('plugins.modified-date.pretext');
             $placement = $this->grav['config']->get('plugins.modified-date.placement');
-    
-            // Get the current raw content
-            $content = $e['page']->getRawContent();
-            
-            // Modify the output with the pre-text, modified date, and chuck it back on the page
+                
+            // Modify the rawContent output with our blocks and chuck it all back on the page
+            if ($placement == 'top') {
+                $e['page']->setRawContent("_**" . $pretext . "** " . $modifiedDate . "_\n\n---\n\n" . $content);
+            } else {
+                $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** " . $modifiedDate . "_");          
+            }
+/*
             if ($placement == 'top') {
                 $e['page']->setRawContent("_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_\n\n---\n\n" . $content);
             } else {
                 $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** {{ page.modified|date('n-j-Y') }}_");          
             }
+*/
         }
     }
 }

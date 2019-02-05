@@ -41,28 +41,15 @@ placement: Whether you want to display the modified date at the top or the botto
     - bottom
 page_types: The page templates (types) on which to display the modified date
   options:
-    - default
-    - docs
-    - chapter
+    - This should display a list of all templates dynamically generated from the theme.
+    - The list will also include partials, it's adviseable to only select actual page templates.
 ```
 
 Note that if you use the admin plugin, a file with your configuration, and named modified-date.yaml will be saved in the `user/config/plugins/` folder once the configuration is saved in the admin.
 
-## Usage
-
-This plugin requires Twig processing to operate, so you'll need to enable that in `user/config/system.yaml` for the plugin to work. Like so:
-
-```yaml
-  events:
-    page: true
-    twig: true
-```
-
-Right now the page types are hard-coded to the templates in the Learn2 theme. Ideally, the list of page types would be generated dynamically from the theme. But for now, select which of the three types of pages you want the modified date to appear on using the options detailed in the Configuration section.
-
 ## To Do
 
-- ~~Generate page types / templates dynamically from the theme.~~
+- Remove or hide template partials from `page_types` option list.
 - Move the page type check login from `onPageContentRaw()` to `onPluginsInitialized()` so it just doesn't even fire if we're not on the right page. Maybe even replace the `isAdmin()` check.
 - Figure out how to use a `template` file to append/prepend to the page content, rather than munging the entire content. This would seem cleaner.
 
