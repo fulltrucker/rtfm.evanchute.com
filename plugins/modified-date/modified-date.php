@@ -56,9 +56,9 @@ class ModifiedDatePlugin extends Plugin
             // Modifying the rawContent output with our blocks and chucking it all back on the page
             // is the most universal, theme-agnostic method we can think of to make this happen
             if ($placement == 'top') {
-                $e['page']->setRawContent("_**" . $pretext . "** " . $modifiedDate . "_\n\n---\n\n" . $content);
+                $e['page']->setRawContent($pretext . $modifiedDate . "\n\n---\n\n" . $content);
             } else {
-                $e['page']->setRawContent($content . "\n\n---\n\n_**" . $pretext . "** " . $modifiedDate . "_");          
+                $e['page']->setRawContent($content . "\n\n---\n\n" . $pretext . $modifiedDate);          
             }
         }
     }
