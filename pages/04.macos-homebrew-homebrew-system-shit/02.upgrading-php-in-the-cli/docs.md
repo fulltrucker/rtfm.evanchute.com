@@ -116,4 +116,4 @@ Zend Engine v2.6.0, Copyright (c) 1998-2016 Zend Technologies
 
 ### Salut!
 
-![Homebrew_logo.png](https://upload.wikimedia.org/wikipedia/commons/3/34/Homebrew_logo.png)
+![Homebrew_logo.png](../Homebrew_logo.png)
