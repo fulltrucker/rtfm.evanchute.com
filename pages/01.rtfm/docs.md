@@ -5,7 +5,7 @@ taxonomy:
         - docs
 process:
     markdown: true
-    twig: true
+    twig: false
 ---
 
 ## LOL Wut?
@@ -24,4 +24,4 @@ Also right now, I'm the only one maintaining this Bad Larry, but who knows what 
 
 ## Who dat ninja?
 
-This guide is collaboratively written, edited, and curated by My Own Damn Self.
+This guide is collaboratively written, edited, and curated by My Own Damn Self™.

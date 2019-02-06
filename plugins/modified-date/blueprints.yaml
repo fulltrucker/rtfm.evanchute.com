@@ -47,6 +47,7 @@ form:
       type: select
       multiple: true
       label: PLUGIN_MODIFIED_DATE.PAGE_TYPE
+      help: PLUGIN_MODIFIED_DATE.PAGE_TYPE_HELP
       classes: fancy
       data-options@: '\Grav\Common\Page\Pages::pageTypes'
       selectize:

@@ -1,4 +1,4 @@
 enabled: true
-pretext:
-placement:
+pretext: 'Updated:'
+placement: bottom
 page_types:

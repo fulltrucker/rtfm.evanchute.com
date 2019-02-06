@@ -50,7 +50,7 @@ class ModifiedDatePlugin extends Plugin
             $content = $e['page']->getRawContent();
             // Make a human date from the Unix timestamp
             $modifiedDate = date('n-j-Y', $this->grav['page']->modified());
-            $pretext = $this->grav['config']->get('plugins.modified-date.pretext');
+            $pretext = $this->grav['config']->get('plugins.modified-date.pretext') . " ";
             $placement = $this->grav['config']->get('plugins.modified-date.placement');
                 
             // Modifying the rawContent output with our blocks and chucking it all back on the page
