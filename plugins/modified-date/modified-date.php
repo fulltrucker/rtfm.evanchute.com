@@ -1,9 +1,7 @@
 <?php
 namespace Grav\Plugin;
-
 use Grav\Common\Plugin;
 use RocketTheme\Toolbox\Event\Event;
-
 /**
  * Class ModifiedDatePlugin
  * @package Grav\Plugin
@@ -26,7 +24,6 @@ class ModifiedDatePlugin extends Plugin
             'onPluginsInitialized' => ['onPluginsInitialized', 0]
         ];
     }
-
     /**
      * Initialize the plugin
      */
@@ -36,33 +33,28 @@ class ModifiedDatePlugin extends Plugin
         if ($this->isAdmin()) {
             return;
         }
-
         // Enable the main event we are interested in
         $this->enable([
             'onPageContentRaw' => ['onPageContentRaw', 0]
         ]);
     }
-
     /**
      * @param Event $e
      */
     public function onPageContentRaw(Event $e)
     {
-        // Only do something if the page type is in our list of allowed types
-        // TO-DO: make the config page load page types dynamically from the theme
-        $template = $this->grav['page']->template();
-        $pageType = ucfirst($template);
         $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
+        // We have to normalize the value we get from template() to match the format of the value we get in $allowedPageTypes
         $pageType = ucfirst($this->grav['page']->template());
         if (in_array($pageType, $allowedPageTypes)) {
-
-            // Get the building blocks for our new rawContent
             $content = $e['page']->getRawContent();
+            // Make a human date from the Unix timestamp
             $modifiedDate = date('n-j-Y', $this->grav['page']->modified());
             $pretext = $this->grav['config']->get('plugins.modified-date.pretext');
             $placement = $this->grav['config']->get('plugins.modified-date.placement');
                 
-            // Modify the rawContent output with our blocks and chuck it all back on the page
+            // Modifying the rawContent output with our blocks and chucking it all back on the page
+            // is the most universal, theme-agnostic method we can think of to make this happen
             if ($placement == 'top') {
                 $e['page']->setRawContent("_**" . $pretext . "** " . $modifiedDate . "_\n\n---\n\n" . $content);
             } else {
