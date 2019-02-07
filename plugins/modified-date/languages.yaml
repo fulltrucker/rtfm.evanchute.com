@@ -1,0 +1,8 @@
+en:
+  PLUGIN_MODIFIED_DATE:
+    PRE_TEXT: Pre-text
+    PRE_TEXT_HELP: The text that is displayed before the last modified date. Simple text field, can accept Twig and Markdown.
+    PLACEMENT: Placement
+    PLACEMENT_HELP: Choose either `top` or `bottom` from the select list.
+    PAGE_TYPE: Page types to display the date on:
+    PAGE_TYPE_HELP: Choose the page templates (types) on which to display the modified date. The list also include partials, it's adviseable to only select actual page templates.

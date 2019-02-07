@@ -1,0 +1,57 @@
+name: Modified Date
+version: 0.1.1
+description: Displays the last modified date of a page at either the top or bottom of the page content.
+icon: paw
+author:
+  name: Evan Chute
+  email: evan@evanchute.com
+homepage: https://github.com/fulltrucker/modified-date
+demo: http://rtfm.evanchute.com/
+keywords: grav, plugin, etc
+bugs: https://github.com/fulltrucker/modified-date/issues
+docs: https://github.com/fulltrucker/modified-date/blob/master/README.md
+license: MIT
+
+form:
+  validation: strict
+  fields:
+  
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+        
+    pretext:
+      type: text
+      label: PLUGIN_MODIFIED_DATE.PRE_TEXT
+      help: PLUGIN_MODIFIED_DATE.PRE_TEXT_HELP
+      default: 'Updated:'
+      
+    placement:
+      type: select
+      label: PLUGIN_MODIFIED_DATE.PLACEMENT
+      help: PLUGIN_MODIFIED_DATE.PLACEMENT_HELP
+      classes: fancy
+      default: 'bottom'
+      options:
+        'top': 'top'
+        'bottom': 'bottom'
+        
+    page_types:
+      type: select
+      multiple: true
+      label: PLUGIN_MODIFIED_DATE.PAGE_TYPE
+      help: PLUGIN_MODIFIED_DATE.PAGE_TYPE_HELP
+      classes: fancy
+      data-options@: '\Grav\Common\Page\Pages::pageTypes'
+      selectize:
+        create: true
+      validate:
+        type: commalist
+        required: true
