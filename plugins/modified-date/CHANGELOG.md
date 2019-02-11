@@ -1,3 +1,11 @@
+# v0.1.2
+##  02/11/2019
+
+1. [](#new)
+    * Added mergeConfig() logic to make plugin configurable on the page level.
+    * Updated README with instructions to configure plugin options on a page.
+    * Updated repo name to grav-plugin-modified-date.
+
 # v0.1.1
 ##  02/05/2019
 
