@@ -40,6 +40,23 @@ Otherwise, you can create a login from `/admin`, or use the cli:
 
 `$ bin/plugin login`
 
+## Create a .gitignore file
+
+1. Create the file by doing a `touch .gitignore`
+
+2. Update the file by doing `nano .gitignore` and adding:
+
+   ```shell
+   /*
+   !/pages
+   !/themes
+   !/plugins
+   !/config
+   !/data
+   !/localhost
+   /localhost/config/security.yaml
+   ```
+
 ## PHP built-in server
 
 [https://learn.getgrav.org/basics/installation#running-grav-with-the-built-in-php-webserver-using-router-php](https://learn.getgrav.org/basics/installation#running-grav-with-the-built-in-php-webserver-using-router-php)
