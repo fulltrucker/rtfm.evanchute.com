@@ -43,22 +43,27 @@ class ModifiedDatePlugin extends Plugin
      */
     public function onPageContentRaw(Event $e)
     {
-        $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
-        // We have to normalize the value we get from template() to match the format of the value we get in $allowedPageTypes
-        $pageType = ucfirst($this->grav['page']->template());
-        if (in_array($pageType, $allowedPageTypes)) {
-            $content = $e['page']->getRawContent();
-            // Make a human date from the Unix timestamp
-            $modifiedDate = date('n-j-Y', $this->grav['page']->modified());
-            $pretext = $this->grav['config']->get('plugins.modified-date.pretext') . " ";
-            $placement = $this->grav['config']->get('plugins.modified-date.placement');
-                
-            // Modifying the rawContent output with our blocks and chucking it all back on the page
-            // is the most universal, theme-agnostic method we can think of to make this happen
-            if ($placement == 'top') {
-                $e['page']->setRawContent($pretext . $modifiedDate . "\n\n---\n\n" . $content);
-            } else {
-                $e['page']->setRawContent($content . "\n\n---\n\n" . $pretext . $modifiedDate);          
+        $page = $e['page'];
+        $config = $this->mergeConfig($page);
+
+        if ($config->get('enabled')) {
+            $allowedPageTypes = $this->config->get('plugins.modified-date.page_types', []);
+            // We have to normalize the value we get from template() to match the format of the value we get in $allowedPageTypes
+            $pageType = ucfirst($this->grav['page']->template());
+            if (in_array($pageType, $allowedPageTypes)) {
+                $content = $e['page']->getRawContent();
+                // Make a human date from the Unix timestamp
+                $modifiedDate = date('n-j-Y', $this->grav['page']->modified());
+                $pretext = $this->grav['config']->get('plugins.modified-date.pretext') . " ";
+                $placement = $this->grav['config']->get('plugins.modified-date.placement');
+                    
+                // Modifying the rawContent output with our blocks and chucking it all back on the page
+                // is the most universal, theme-agnostic method we can think of to make this happen
+                if ($placement == 'top') {
+                    $e['page']->setRawContent($pretext . $modifiedDate . "\n\n---\n\n" . $content);
+                } else {
+                    $e['page']->setRawContent($content . "\n\n---\n\n" . $pretext . $modifiedDate);          
+                }
             }
         }
     }
