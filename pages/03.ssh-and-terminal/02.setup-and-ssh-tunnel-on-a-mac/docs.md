@@ -10,14 +10,17 @@ If a client is restricting access to their website by IP, you may need to set up
 ## Whitelist Electrode's IP Address on the client server
 
 1. Make sure the client server has electrode's IP Whitelisted: 
-1. The whitelist might be found in on the client's server here: `/etc/apache2/conf-enabled/ip-restrictions.conf`
-1. Use sudo nano to edit the whitelist
+1. The whitelist might be found in on the client's server in a number of places:
+    * `/etc/apache2/conf-enabled/ip-restrictions.conf`
+    * `/etc/apache2/sites-enabled/`
+    * `/etc/apache2/sites-available/`
+1. Use `sudo nano` to edit the whitelist
 1. Add Electrode's IP address to this file: `Allow from 66.228.54.97`
 1. You might need to do a `sudo service apache2` reload after adding the IP to the whitelist
 
 ## Opening an SSH Tunnel in Terminal
 
-1. Open a terminal window and do a: `ssh -D 8080 -C -q -N username@electrode.ginkgostreet.com -p 32121`
+1. Open a terminal window and do a: `ssh -D 8080 -C -q -N echute@electrode.ginkgostreet.com -p 32121`
    - The terminal should go to a new line and just display a blinking cursor, this is normal
    - See [this ExplainShell link](https://explainshell.com/explain?cmd=ssh+-D+8080+-C+-q+-N+username%40electrode.ginkgostreet.com+-p+32121) for what's going on here
    - You can add the -f option to start the tunnel in the background, to kill it use step #5 below
