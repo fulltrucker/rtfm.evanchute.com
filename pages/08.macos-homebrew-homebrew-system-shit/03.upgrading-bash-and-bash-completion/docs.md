@@ -69,10 +69,20 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 ```
 
-I did a `cd` into a `git` repo to test it out, and there was no completion happening. So I added what the `Caveats` told me to add, reloaded the Terminal window, and did the same test. Again, no completion.
+I did a `cd` into a `git` repo to test it out, and there was no completion happening. So I added what the `Caveats` told me to add, reloaded the Terminal window, and did the same test. Again, no completion using the `git` command as a test. We did finally settle on using what Homebrew recommended:
+
+```shell
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+```
+
+And after much distress, we realized the `BASH_COMPLETION_COMPAT_DIR` variable wasn't being set, and that was needed to load the `git-completion.bash` file as it's home-brew v1. Sunofa.
+
+```shell
+export BASH_COMPLETION_COMPAT_DIR="/usr/local/etc/bash_completion.d"
+```
+
+### FKNA. Done. Works.
 
 
-
-### Cheers!
 
 ![Homebrew_logo.png](../Homebrew_logo.png)
