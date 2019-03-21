@@ -1,5 +1,6 @@
 ---
 title: 'Shell Config Files i.e. What Goes Where'
+menu: 'Shell Config Files'
 taxonomy:
     category:
         - docs
@@ -9,7 +10,7 @@ This will be my documentation of an attempt to determine the differences between
 
 ## My Config
 
-- I got rid of the `.profile` file in favor of the more "standard" `.bashrc` and `.bash_profile` config
+- I got rid of the `.profile` file in favor of the more "*nix standard" `.bashrc` and `.bash_profile` config
 - `.bashrc` loads `.bash_profile`
 - `.bash_profile` loads other dot files that are used for specific purposes
 - `.bash_profile` is used primarily for command-oriented stuff like tab completion
@@ -37,7 +38,7 @@ It appears the difference is when a file is loaded, and what for. The main diffe
 - `.tcshrc` 
 - `.zshrc`
 
-And then there's the fact that `bash` complicates this in that `.bashrc` is **only read by a shell that's both interactive and non-login**, so you'll find most people end up telling their `.bash_profile` to also read `.bashrc` with something like:
+And then there's the fact that `bash` complicates this in that `.bashrc` is **only read by a shell that's both interactive and non-login**, so anecdotally it sounds like many (most?) people end up telling their `.bash_profile` to also read `.bashrc` with something like:
 
 ```shell
 [[ -r ~/.bashrc ]] && . ~/.bashrc
@@ -55,7 +56,7 @@ Not sure which is better, but I think I'm going with Option 2 above. I'm thinkin
 
 According to this [SE question](https://stackoverflow.com/questions/6751252/difference-between-profile-and-bash-profile-on-snow-leopard), the Mac OS X environment checks `.bash_profile`, `.bash_login`, `.profile` in this order. It will run whichever is the highest in the hierarchy, so, if you have `.bash_profile`, it will not check `.profile`.
 
-And I've been peeking through a few [superuser](https://github.com/troyxmccall/dotfiles) [dotfile](https://github.com/mathiasbynens/dotfiles) [repos](https://github.com/janmoesen/tilde) and none of them are using the `.profile` file, only `.bashrc` and `.bash_profile`.  They're also fond of a `.aliases` file which 
+And I've been peeking through a few [superuser](https://github.com/troyxmccall/dotfiles) [dotfile](https://github.com/mathiasbynens/dotfiles) [repos](https://github.com/janmoesen/tilde) and none of them are using the `.profile` file, only `.bashrc` and `.bash_profile`.  They're also fond of using non-system dotfiles (e.g. `.aliases`) which can then be loaded or read in using `.bash_profile`. This just keeps things quite a bit tidier in your home directory, and since I always have confusion about what goes where it seems like a good strategy. 
 
 ## Helpful Links and Reseach
 
