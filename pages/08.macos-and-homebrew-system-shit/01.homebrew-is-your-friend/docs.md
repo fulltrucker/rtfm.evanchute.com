@@ -10,26 +10,26 @@ routes:
 Here's what I have brewing in my `brew list` at the moment:
 
 ```shell
-bash			dart			libevent		make			python			thefuck
-bash-completion@2	gdbm			libiconv		openssl			readline		tor
-cabal-install		gettext			libidn2			pandoc			sass			wget
-coda-cli		ghc			libscrypt		pcre2			sphinx-doc		xz
-composer		git			libunistring		pkg-config		sqlite
+bash				dart			libevent			make			python			thefuck
+bash-completion@2	gdbm			libiconv			openssl			readline		tor
+cabal-install		gettext			libidn2				pandoc			sass			wget
+coda-cli			ghc				libscrypt			pcre2			sphinx-doc		xz
+composer			git				libunistring		pkg-config		sqlite
 ```
 
-This `brew list` was updated on  3/21/2019
+This `brew list` was updated on  3/22/2019 after a 12- hour `pandoc` install.
 
 ## Common Commands
 
 - `brew update`: Fetch the newest version of Homebrew and all formulae from GitHub using `git`(1) and perform any necessary migrations.
-- `brew install` *formula*: Installs a package (formula) to your computer. [[options](https://docs.brew.sh/Manpage#install-options-formula)]
+- `brew install` _formula_ : Installs a package (formula) to your computer. [[options](https://docs.brew.sh/Manpage#install-options-formula)]
 - `brew list`: List all installed formulae [[options](https://docs.brew.sh/Manpage#list-ls-options)]
 - `brew commands`: Show a list of built-in and external commands [[options](https://docs.brew.sh/Manpage#commands-options)]
 -  `brew config`: Show Homebrew and system configuration useful for debugging. If you file a bug report, you will likely be asked for this information if you do not provide it.
 
 ## Special Commands
 
-- `bitches-brew or `brew-update`: Keeps casks up to date the right way by doing a `brew update && brew upgrade && brew cu -fa && brew cleanup && brew doctor && brew cask doctor` 
+- `bitches-brew` or `brew-update`: Keeps casks up to date the right way by doing a `brew update && brew upgrade && brew cu -fa && brew cleanup && brew doctor && brew cask doctor` 
 - `party-foul` or `partyfoul`: `brew cleanup -s --prune`
 
 ## Resources
