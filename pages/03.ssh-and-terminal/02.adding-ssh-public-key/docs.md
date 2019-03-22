@@ -14,7 +14,7 @@ This guide walks through how to add a public key to a Siteground hosted website,
 1. Open Terminal
 1. Check for an existing key pair by doing: `ls -al ~/.ssh`
 1. Paste the text below, substituting in your email address:
-   `ssh-keygen -t rsa -b 4096 -C "*your_email@example.com*"`
+   `ssh-keygen -t rsa -b 4096 -C` _email@example.com_
 1. This creates a new ssh key, using the provided email as a label
    Generating public/private rsa key pair.
 1. When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
@@ -32,9 +32,9 @@ This guide walks through how to add a public key to a Siteground hosted website,
 
 **Helpful Links:**
 
-- <https://help.github.com/articles/checking-for-existing-ssh-keys/>
-- [https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/)
-- <https://www.siteground.com/kb/How_to_generate_an_SSH_key_pair_in_Mac_OS/> 
+- https://help.github.com/articles/checking-for-existing-ssh-keys/
+- https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+- https://www.siteground.com/kb/How_to_generate_an_SSH_key_pair_in_Mac_OS/
 
 ## Add public key to Siteground website
 
@@ -48,7 +48,7 @@ This guide walks through how to add a public key to a Siteground hosted website,
 
 **Helpful Links:**
 
-- <https://www.siteground.com/tutorials/ssh/ssh_cpanel.htm> 
+- https://www.siteground.com/tutorials/ssh/ssh_cpanel.htm
 
 ## Add login to .ssh config file
 
@@ -67,27 +67,31 @@ This guide walks through how to add a public key to a Siteground hosted website,
      User username
    ```
 1. Notes:
-   - Host shortcutname should be the Ginkgo client key in lowercase
-   - Hostname, Port, and User should come from Siteground
+   - Host shortcutname should be something that makes sense for the client/server
+   - Hostname, Port, and User should come from the host provider
 1. Hit control-X to exit the editor, follow onscreen prompts to save the file
 1. Do a `cat ~/.ssh/config` to make sure changes were made
 
 **Helpful Links:**
 
-1. <http://osxdaily.com/2011/04/05/setup-ssh-config-fie/> 
-1. <http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/> 
+- http://osxdaily.com/2011/04/05/setup-ssh-config-fie/
+- http://nerderati.com/2011/03/17/simplify-your-life-with-an-ssh-config-file/
 
 ## Add login to Transmit FTP Client
+
+To-Do, but also pretty straight-forward
 
 ## Add login to Sequel Pro
 
 1. Use a “Standard” connection — SSH connection won’t work and isn’t needed
-1. Add your public IP address to the Remote Database Access Hosts list in cPanel, found in the Databases section.
-1. Use the server's secondary IP address in Sequel Pro which should be listed on the Remote Database Access Hosts page
-1. Username and PW for each DB user will grant access to whatever databases that user has access to. Entering a database name here will only make that the default, leave blank to not have a default
-1. Port: 3306
+1. On a Siteground server you'll need to add your public IP address to the Remote Database Access Hosts list in cPanel, found in the Databases section.
+   - Use the server's secondary IP address in Sequel Pro which should be listed on the Remote Database Access Hosts page
+   - Username and PW for each DB user will grant access to whatever databases that user has access to. Entering a database name here will only make that the default, leave blank to not have a default
+   - Port: 3306
 
 ## Add remote server to Macfusion using SSHFS
+
+I don't use this often, or really ever. These days it's all about using the [Coda 2 IDE](https://panic.com/coda/) to connect to a remote server (SSH supported!) and work either locally or straight on the server, depending on what I'm doing. Nearly everything is kept in version control, as well. But I'll leave these here for posterior.
 
 1. Open up Macfusion
 1. Click the ‘+’ icon and choose SSHFS
@@ -97,6 +101,3 @@ This guide walks through how to add a public key to a Siteground hosted website,
 1. Click Okay
 1. Mount!
 
-## SiteGround SSH Quick Connect
-
-[https://docs.google.com/document/d/1t8lnoe-_ZdQBJ5yC4QSyXSvXojrRhyQiZdH_J5nWtSw/edit#heading=h.ppjx1fyhporo](https://docs.google.com/document/d/1t8lnoe-_ZdQBJ5yC4QSyXSvXojrRhyQiZdH_J5nWtSw/edit#heading=h.ppjx1fyhporo)
