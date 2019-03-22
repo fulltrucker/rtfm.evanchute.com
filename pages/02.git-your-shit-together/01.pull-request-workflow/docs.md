@@ -1,8 +1,10 @@
 ---
 title: 'Git Pull Request Workflow'
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
+routes:
+  canonical: /git-your-shit-together/pull-request-workflow
 ---
 
 ##The Basic Gist of the Thing

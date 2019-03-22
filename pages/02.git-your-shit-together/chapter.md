@@ -1,9 +1,10 @@
 ---
 title: 'Git Your Shit Together'
-media_order: rick-morty-shit-together-backpack.gif
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
+routes:
+  canonical: /git-your-shit-together
 ---
 
 # Git Your Shit Together

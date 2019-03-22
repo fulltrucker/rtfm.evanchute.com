@@ -1,8 +1,10 @@
 ---
 title: 'Ignoring DS_Store files'
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
+routes:
+  canonical: /git-your-shit-together/ignoring-ds-store-files
 ---
 
 ## Remove all `.DS_Stores` from a repo:

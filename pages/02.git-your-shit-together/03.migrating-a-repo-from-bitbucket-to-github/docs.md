@@ -1,8 +1,10 @@
 ---
 title: 'Migrating a repo from BitBucket to GitHub'
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
+routes:
+  canonical: /git-your-shit-together/migrating-a-repo-from-bitbucket-to-github
 ---
 
 Some (a lot) of this is Ginkgo Street specific, but it does have some valuable generic info and concept oriented stuff.

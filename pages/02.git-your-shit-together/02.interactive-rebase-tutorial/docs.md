@@ -1,8 +1,10 @@
 ---
 title: 'Interactive Rebase Tutorial'
 taxonomy:
-    category:
-        - docs
+  category:
+    - docs
+routes:
+  canonical: /git-your-shit-together/interactive-rebase-tutorial
 ---
 
 ##Rebasing Cocaine
