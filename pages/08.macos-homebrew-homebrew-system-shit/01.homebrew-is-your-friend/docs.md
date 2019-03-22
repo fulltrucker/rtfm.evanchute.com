@@ -8,10 +8,11 @@ taxonomy:
 Here's what I have brewing in my `brew list` at the moment:
 
 ```shell
-bash			dart			libevent		libunistring		pkg-config		sqlite			xz
-bash-completion@2	gdbm			libiconv		make			python			thefuck
-coda-cli		gettext			libidn2			openssl			readline		tor
-composer		git			libscrypt		pcre2			sass			wget
+bash			dart			libevent		make			python			thefuck
+bash-completion@2	gdbm			libiconv		openssl			readline		tor
+cabal-install		gettext			libidn2			pandoc			sass			wget
+coda-cli		ghc			libscrypt		pcre2			sphinx-doc		xz
+composer		git			libunistring		pkg-config		sqlite
 ```
 
 This `brew list` was updated on  3/21/2019
