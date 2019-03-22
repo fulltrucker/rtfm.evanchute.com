@@ -7,6 +7,8 @@ routes:
   canonical: /grav-cms/project-setup
 ---
 
+This document is a copypasta of the Ginkgo Street Labs Grav Project Setup guide. This information is most certainly out of date. Please visit https://rtfm.ginkgo.st/~docs/grav/guides/project-setup for current documentation.
+
 ## docs-user
 
 Create a user and set-up the web-root, including permissions.

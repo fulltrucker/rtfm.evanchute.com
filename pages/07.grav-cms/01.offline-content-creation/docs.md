@@ -7,7 +7,7 @@ routes:
   canonical: /grav-cms/offline-content-creation
 ---
 
-As with a lot of things in my RTFM, this one came from Ginkgo Street. Eventually, I'll add some information and instructions on spinning up a [Grav site symlinked to a master repo](https://learn.getgrav.org/advanced/grav-development#github-setup) but for now this will work, 
+As with a lot of things in my RTFM, this one came from Ginkgo Street. Eventually, I'll add some information and instructions on spinning up a [Grav site symlinked to a master repo](https://learn.getgrav.org/advanced/grav-development#github-setup) but for now this will work. As this document is a copypasta of Ginkgo documentation, this information is most certainly out of date. Please visit https://rtfm.ginkgo.st/~docs/grav/guides/off-line-content-creation for current documentation.
 
 - Use git to edit content in a development environment.
 - Structure commits meaningfully.
