@@ -3,6 +3,8 @@ title: 'Install CiviCRM into WP on Sandbox'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /civicrm/install-civicrm-into-wp-on-sandbox
 ---
 
 These are my notes from an installation walk-through by DOB on 5/5/2017 onto the sandbox site for IM4US. This isn’t as much a HOW-TO as it is a starting point… DOB went pretty quickly and I captured as much info as I could.

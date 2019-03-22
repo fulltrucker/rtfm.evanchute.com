@@ -3,6 +3,8 @@ title: Random
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /random
 ---
 
 # Random

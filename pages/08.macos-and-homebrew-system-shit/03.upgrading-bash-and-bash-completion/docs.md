@@ -3,6 +3,8 @@ title: 'Upgrading Bash and Bash Completion'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /macos-and-homebrew/upgrading-bash-and-bash-completion
 ---
 
 Installing the Ginkgo Street [make-do](https://github.com/ginkgostreet/make-do) framework and [Grav Utilities](https://github.com/ginkgostreet/grav-util) necessitated upgrading the woefully old Bash 3.x that comes installed in Mac OS X to something more… modern. Fortunately, MZD has already done some of the legwork.

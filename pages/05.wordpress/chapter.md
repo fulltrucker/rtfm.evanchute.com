@@ -3,6 +3,8 @@ title: WordPress
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /wordpress
 ---
 
 # WordPress

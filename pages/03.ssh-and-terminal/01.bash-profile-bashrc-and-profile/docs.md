@@ -4,6 +4,8 @@ menu: 'Shell Config Files'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /ssh-and-terminal/shell-config-files
 ---
 
 This will be my documentation of an attempt to determine the differences between and what each of `.bash_profile`, `bashrc`, and `.profile` files are used for. It could get messy, but there are definite differences and likely an optimal setup. Oh, and I'll put [My Config](#my-config) in here as well.

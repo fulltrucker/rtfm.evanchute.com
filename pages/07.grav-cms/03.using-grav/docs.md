@@ -3,6 +3,8 @@ title: 'Using Grav CMS'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /grav-cms/using-grav
 ---
 
 # Say Hello to Grav!

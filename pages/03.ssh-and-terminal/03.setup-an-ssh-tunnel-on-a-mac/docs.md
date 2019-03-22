@@ -3,6 +3,8 @@ title: 'Setup an SSH Tunnel on a Mac'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /ssh-and-terminal/setup-an-ssh-tunnel-on-a-mac
 ---
 
 If a client is restricting access to their website by IP, you may need to set up an SSH Tunnel through which to direct all your web traffic, in order to gain a stable static IP address that is whitelisted on the client website. We can use the Ginkgo Street Labs electrode server to do this fairly easily, or probably evanchute.com if we are no longer working with Ginkgo Street.

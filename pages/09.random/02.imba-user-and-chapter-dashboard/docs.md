@@ -3,6 +3,8 @@ title: 'IMBA User/Chapter Dashboard'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /random/imba-user-and-chapter-dashboard
 ---
 
 ## General Notes

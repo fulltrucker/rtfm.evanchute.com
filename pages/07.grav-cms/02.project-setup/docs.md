@@ -3,6 +3,8 @@ title: 'Project Setup'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /grav-cms/project-setup
 ---
 
 ## docs-user

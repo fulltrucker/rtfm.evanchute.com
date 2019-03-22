@@ -3,6 +3,8 @@ title: 'Homebrew is Your Friend'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /macos-and-homebrew/homebrew-is-your-friend
 ---
 
 Here's what I have brewing in my `brew list` at the moment:

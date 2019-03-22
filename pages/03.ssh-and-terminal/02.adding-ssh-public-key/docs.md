@@ -3,6 +3,8 @@ title: 'Adding SSH Public Key'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /ssh-and-terminal/adding-ssh-public-key
 ---
 
 This guide walks through how to add a public key to a Siteground hosted website, then setting up passwordless login via SSH/Terminal and Transmit on a Mac.

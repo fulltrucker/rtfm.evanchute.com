@@ -3,6 +3,8 @@ title: 'Upgrading PHP in the CLI'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /macos-and-homebrew/upgrading-php-in-the-cli
 ---
 
 ## Background

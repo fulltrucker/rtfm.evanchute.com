@@ -4,6 +4,8 @@ media_order: Homebrew_logo.png
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /macos-and-homebrew
 ---
 
 # Brewski

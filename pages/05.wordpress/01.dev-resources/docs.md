@@ -3,6 +3,8 @@ title: 'WordPress Development Resources'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /wordpress/dev-resources
 ---
 
 A collection of pages that I have actually used for things.

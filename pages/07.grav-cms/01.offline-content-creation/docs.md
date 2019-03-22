@@ -3,6 +3,8 @@ title: 'Off-line Content Creation'
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /grav-cms/offline-content-creation
 ---
 
 As with a lot of things in my RTFM, this one came from Ginkgo Street. Eventually, I'll add some information and instructions on spinning up a [Grav site symlinked to a master repo](https://learn.getgrav.org/advanced/grav-development#github-setup) but for now this will work, 

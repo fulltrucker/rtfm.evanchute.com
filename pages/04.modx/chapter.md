@@ -3,6 +3,8 @@ title: MODx
 taxonomy:
     category:
         - docs
+routes:
+  canonical: /modx
 ---
 
 # MODx
