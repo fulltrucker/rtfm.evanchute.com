@@ -1,6 +1,6 @@
 ---
-title: 'Editing Content in MODx'
-menu: 'Editing Content in MODx'
+title: 'Editing Content in MODX'
+menu: 'Editing Content in MODX'
 taxonomy:
     category:
         - docs

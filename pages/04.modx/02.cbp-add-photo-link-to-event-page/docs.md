@@ -8,7 +8,7 @@ routes:
   canonical: /modx/cbp-add-photo-link-to-event-page
 ---
 
-So I put together a better way of easily adding the photos link to the Chocolate Bunny website for each event. This is a HOW-TO guide with pretty pictures and stuff, linked from the CBP MODx Manager to here so it's easy to find. Boom.
+So I put together a better way of easily adding the photos link to the Chocolate Bunny website for each event. This is a HOW-TO guide with pretty pictures and stuff, linked from the CBP MODX Manager to here so it's easy to find. Boom.
 
 ## Basic Steps:
 

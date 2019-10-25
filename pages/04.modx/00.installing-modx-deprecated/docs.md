@@ -1,6 +1,6 @@
 ---
-title: 'Installing MODx (deprecated)'
-menu: 'Installing MODx (deprecated)'
+title: 'Installing MODX (deprecated)'
+menu: 'Installing MODX (deprecated)'
 taxonomy:
     category:
         - docs
@@ -8,7 +8,7 @@ routes:
   canonical: /modx/installing-modx-deprecated
 ---
 
-This is a mostly deprecated version of how to install MODx on a server. There are still likely some good things in here, such as base configs and extras and whatnot.
+This is a mostly deprecated version of how to install MODX on a server. There are still likely some good things in here, such as base configs and extras and whatnot.
 
 ## Core Installation
 
@@ -211,5 +211,5 @@ This is a mostly deprecated version of how to install MODx on a server. There ar
 
 ## Obfuscate Email Addresses
 
-1. Set up basic user_access.css with Email Obfuscate JavaScript (deprecated for MODx Extra that does this)
+1. Set up basic user_access.css with Email Obfuscate JavaScript (deprecated for MODX Extra that does this)
 
