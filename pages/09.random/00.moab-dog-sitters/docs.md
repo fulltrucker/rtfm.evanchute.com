@@ -1,23 +1,18 @@
 ---
 title: Moab Dog Sitters
 taxonomy:
-  category:
-    - docs
-  tag:
-    - content
-    - feature
+    category:
+        - docs
 routes:
   canonical: /moab-dog-sitters
 ---
+
 ## Individuals
 
-Aubrey Danger Pool
-
+Aubrey Danger Pool<br />
 (435) 260-9213
 
-
-Elaine Chestler
-
+Elaine Chestler<br />
 (952) 250-9600
 
 
@@ -25,25 +20,16 @@ Eloise
 
 ## Businesses
 
-**Judy Powers**
-
-_Powers With Animals_
-
-[info@powerswithanimals.com](mailto:info@powerswithanimals.com)
-
+**Judy Powers**<br />
+_Powers With Animals_<br />
+[info@powerswithanimals.com](mailto:info@powerswithanimals.com)<br />
 **Phone:** (435) 210-1234
 
-
-**Karen's Canine Campground**
-
-(435) 259-7922
+**Karen's Canine Campground**<br />
+(435) 259-7922<br />
 https://karensk9campground.wordpress.com/
 
-
-**Bed and a Biscuit**
-
-https://www.traceysbedandbiscuit.com/
-
-Phone: 435-210-4466
-
+**Bed and a Biscuit**<br />
+https://www.traceysbedandbiscuit.com/<br />
+Phone: 435-210-4466<br />
 Email: [Tracey@traceysbedandbiscuit.com](mailto:Tracey@traceysbedandbiscuit.com)
