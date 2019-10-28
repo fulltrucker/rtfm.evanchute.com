@@ -1,10 +1,10 @@
 ---
-title: UX/UI Design Course Notes - Session 1
+title: Course Notes - Session 1
 taxonomy:
   category:
     - docs
 routes:
-  canonical: /ux-ui-design/course-notes-session-1
+  canonical: /ux-ui-design/ux-ui-design-course/course-notes-session-1
 ---
 ## Overview
 

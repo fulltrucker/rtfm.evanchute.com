@@ -1,10 +1,10 @@
 ---
-title: UX/UI Design Course Notes - Session 2
+title: Course Notes - Session 2
 taxonomy:
   category:
     - docs
 routes:
-  canonical: /ux-ui-design/course-notes-session-2
+  canonical: /ux-ui-design/ux-ui-design-course/course-notes-session-2
 ---
 ## Wireframes
 
