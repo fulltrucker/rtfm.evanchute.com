@@ -18,6 +18,12 @@ Soup to nuts, industry standard UX/UI design tool.
 - https://www.sketchappsources.com/
 - https://www.google.com/search?q=sketch+plugins
 
+#### Make Sketch Great Again
+
+* Signup for InVision
+* Download Craft by InVision
+* Hook all that shit up
+
 ### Adobe XD
 
 ### Figma
@@ -68,8 +74,9 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 ## Miscellaneous
 
 * [Toggl](https://toggl.com/) for time tracking
+* Denver Users: http://denveruxers.com/
 
-## Make Sketch Great Again
+
 
 * Signup for InVision
 * Download Craft by InVision
