@@ -65,6 +65,20 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
   - Bento Menu!!!
 - https://developers.google.com/style/ui-elements
 
+## Fonts and Glyphs
+
+### FontAwesome
+
+* https://fontawesome.com/icons
+* https://fontawesome.com/cheatsheet
+* Copy the glyph or the unicode, and paste it into a textbox that is set to the FontAwesome font
+* You can also just type the name of the icon into the textbox e.g. `trash`
+
+### Glyphicon
+
+* Glyphicon is a Bootstrap thing, there's probably a Sketch plugin to insert glyphicons
+* 
+
 ## User Testing
 
 * UserZoom.com
