@@ -6,9 +6,8 @@ taxonomy:
 routes:
   canonical: /guiding-principals
 ---
-# Guiding Principles
 
-These guiding principles inform how I show up in all aspects of our work and lives, setting the expectations we have for ourselves and how we interact with the world. Understanding these things about myself will serve as a compass to holistically pilot me through life.
+These guiding principles inform how I show up in all aspects of my work and life, setting the expectations I have for myself and how I might interact with the world and the people in it. Understanding these things about myself serves as a compass to holistically pilot me through life.
 
 ## Act with Authenticity
 
@@ -16,12 +15,12 @@ Be a person with integrity and endeavor to do the right thing, always. Strive to
 
 ## Be Curious
 
-Explore the world, learn and evolve. As a person, in my career, at play. Try new things, and be okay with sucking at them. Remember that experience is something one only gets, right after one needs it.
+Explore the world intellectually, physically, and emotionally. Learn, discover, and evolve as a human being, in my career, and at play. Try new things, and be okay with sucking at them. Remember that experience is something one only gets, right after one needs it.
 
 ## Reuse and Conserve
 
 The world already has enough stuff in it, and chances are someone has a barely used thing that I'm looking for. And really, do I need that thing anyway? Live with a minimal amount of belongings, within reason. Actively simplify my life.
 
-## Live Forward
+## Live Energetically Forward
 
-Try and make every year better than the year before. Learn from past experiences, but don't dwell on failures or beat myself up. Celebrate successes, and create new challenges from them. Think and act boldly and unconventionally. Commit to exploring new perspectives.
+Make every year better than the year before. Learn from past experience, but don't dwell on failures or beat myself up. Celebrate successes, and create new challenges from them. Think and act boldly and unconventionally. Commit to exploring new perspectives.
