@@ -15,7 +15,7 @@ Be a person with integrity and endeavor to do the right thing, always. Strive to
 
 ## Be Curious
 
-Explore the world, learn and evolve. As a person, in my career, at play. Try new things, and be okay with sucking at them. Remember that experience is something one only gets, right after one needs it.
+Explore the world intellectually, physically, and emotionally. Learn, discover, and evolve as a human being, in my career, and at play. Try new things, and be okay with sucking at them. Remember that experience is something one only gets, right after one needs it.
 
 ## Reuse and Conserve
 
