@@ -21,6 +21,6 @@ Explore the world intellectually, physically, and emotionally. Learn, discover, 
 
 The world already has enough stuff in it, and chances are someone has a barely used thing that I'm looking for. And really, do I need that thing anyway? Live with a minimal amount of belongings, within reason. Actively simplify my life.
 
-## Live Forward
+## Live Energetically Forward
 
-Try and make every year better than the year before. Learn from past experiences, but don't dwell on failures or beat myself up. Celebrate successes, and create new challenges from them. Think and act boldly and unconventionally. Commit to exploring new perspectives.
+Make every year better than the year before. Learn from past experience, but don't dwell on failures or beat myself up. Celebrate successes, and create new challenges from them. Think and act boldly and unconventionally. Commit to exploring new perspectives.
