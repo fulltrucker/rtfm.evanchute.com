@@ -6,9 +6,8 @@ taxonomy:
 routes:
   canonical: /guiding-principals
 ---
-# Guiding Principles
 
-These guiding principles inform how I show up in all aspects of our work and lives, setting the expectations we have for ourselves and how we interact with the world. Understanding these things about myself will serve as a compass to holistically pilot me through life.
+These guiding principles inform how I show up in all aspects of my work and life, setting the expectations I have for myself and how I might interact with the world and the people in it. Understanding these things about myself serves as a compass to holistically pilot me through life.
 
 ## Act with Authenticity
 
