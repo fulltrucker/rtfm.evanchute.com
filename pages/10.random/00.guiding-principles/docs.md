@@ -1,10 +1,10 @@
 ---
-title: Guiding Principals
+title: Guiding Principles
 taxonomy:
   category:
     - docs
 routes:
-  canonical: /random/guiding-principals
+  canonical: /random/guiding-principles
 ---
 
 These guiding principles inform how I show up in all aspects of my work and life, setting the expectations I have for myself and how I might interact with the world and the people in it. Understanding these things about myself serves as a compass to holistically pilot me through life.
