@@ -12,19 +12,22 @@ This will eventually need to be broken down by category, or something. But for n
 
 ### Sketch
 
-Soup to nuts, industry standard UX/UI design tool.
+Soup to nuts, industry standard UX/UI design tool. Does all the shit, but it has some weird nuances.
 
 - https://www.sketch.com/
+- https://www.sketch.com/extensions/plugins/
 - https://www.sketchappsources.com/
 - https://www.google.com/search?q=sketch+plugins
 
 #### Make Sketch Great Again
 
-* Signup for InVision
-* Download Craft by InVision
+* Signup for InVision https://www.invisionapp.com/
+* Download Craft by InVision https://www.invisionapp.com/craft
 * Hook all that shit up
 
 ### Adobe XD
+
+The biggest player in the design game's entry into the XD space, more intuitive than Sketch but scuttlebutt is that it's lacking in some features compared to other tools.
 
 ### Figma
 
@@ -34,7 +37,7 @@ Collaborative. New player on the block.
 
 ### Balsamiq
 
-Great for quick and dirty lo-fi wireframing, with simple prototyping functionality. Not good for hi-fidelity UI design. Has a "sketch" mode that make all elements look hand-drawn, so it's nice for early client presentations where you don't want the client to get hung up on design details. Use Balsamiq (Comic) Sans font for this.
+Great for quick and dirty lo-fi wireframing, with simple prototyping functionality. Not good (or really even possible to be used) for hi-fidelity UI design. Has a "sketch" display mode that make all elements look hand-drawn, so it's nice for early client presentations where you don't want the client to get hung up on design details. Use Balsamiq (Comic) Sans font for this.
 
 ### Adobe Creative Suite
 
@@ -52,11 +55,14 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 
 * https://material.io
 * https://material.io/design/
+* https://material.io/resources/
+* https://materialdesignkit.com/android-gui/
 * https://dribbble.com/tags/material_design
 
 ### Semantic UI
 
-* https://semantic-ui.com/kitchen-sink.html
+* https://semantic-ui.com/
+* List of UI components in this framework: https://semantic-ui.com/kitchen-sink.html
 
 ## List of UI Elements
 
@@ -77,7 +83,10 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 ### Glyphicon
 
 * Glyphicon is a Bootstrap thing, there's probably a Sketch plugin to insert glyphicons
-* 
+
+### Google Fonts
+
+* https://fonts.google.com/ 
 
 ## User Testing
 
@@ -88,10 +97,7 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 ## Miscellaneous
 
 * [Toggl](https://toggl.com/) for time tracking
+  * https://toggl.com/app/timer Timer App UI, Create an account and use for timing projects. 
+  * Count the UI Components for a fun game!
 * Denver Users: http://denveruxers.com/
 
-
-
-* Signup for InVision
-* Download Craft by InVision
-* Hook all that shit up

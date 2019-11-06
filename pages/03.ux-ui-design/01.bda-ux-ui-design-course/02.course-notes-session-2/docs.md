@@ -25,6 +25,7 @@ routes:
 - PDP == Product Display Page | Product Detail Page
   - One product
   - Shows the details
+  - Example: https://soylent.com/products/drink-cacao PDP Page (Ecommerce, Product Display Page). Count the UI Components!
   
 - Zero State == a page or element where nothing happens
   - 404 pages
@@ -74,18 +75,14 @@ routes:
   - *"Let’s create some **“fake people”** and think what they would think while using our product!"*
   - https://uxdesign.cc/ux-has-pretty-bad-ux-fd2702e5c22a
 - Lots of persona categories out there (see hand-out), a "good" persona probably uses 5-7 categories (there's that fucking law again...)
-
 - **Demographics:** Get a bunch of numbers, see where they live and how old they are
 - Story and Situation are similar, one is more about the origin of the persona. Bio is also similar but more historic-based
-
 - Capabilities may also contain "Digital Literacy" i.e. how good are they at tech. Skills is similar, but may be used differently pending your use case.
-
 - Brands can be brands, apps, or certain technologies
-
 - Personas don't need to be "designed" to look pretty, they can simply be a text document. 
-
 - Charts and infographics can be used to display some of the categories. For instance you could show a list of apps (or brands, or technoolgies) a user likes/uses in a pie chart, with the percentage of use for each Thing™ shown in the chart.
 
+![User Persona Example](Persona-Example.jpg)
 
 ## Homework Assignments
 
@@ -93,3 +90,8 @@ routes:
   * Do some research for our personas e.g. demographics, etc.
   * Can use people that are real, or do some Googling
 * Probably something else?
+
+## Class Session Resources
+
+[Click here](class-2-resource-files.zip) to download a `.zip` file with all the files Nathan sent us.
+
