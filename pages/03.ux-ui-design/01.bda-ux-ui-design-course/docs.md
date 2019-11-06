@@ -1,10 +1,10 @@
 ---
-title: UI/UX Design Certificate Program
+title: BDA UI/UX Design Certificate Program
 taxonomy:
   category:
     - docs
 routes:
-  canonical: /ux-ui-design/ux-ui-design-course
+  canonical: /ux-ui-design/bda-ux-ui-design-course
 ---
 In this five-day intensive certificate program (held weekly on Saturdays or Sundays, 9am-5pm for 5 weeks), you will gain real-world skills and knowledge in all the key areas of UI/UX design. This class will focus on the user-centered design process with emphasis on user research, information architecture, interaction design, and usability testing. Students will work on a web or mobile project of their choice and will create artifacts including personas, user/task flows, sketches, and wireframes that can be added to a UX portfolio.
 

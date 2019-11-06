@@ -4,7 +4,7 @@ taxonomy:
   category:
     - docs
 routes:
-  canonical: /ux-ui-design/ux-ui-design-course/course-notes-session-1
+  canonical: /ux-ui-design/bda-ux-ui-design-course/course-notes-session-1
 ---
 ## Overview
 
