@@ -1,5 +1,6 @@
 ---
 title: CareerFoundry UI Design Short Course - Day 06
+menu: Day 06
 taxonomy:
   category:
     - docs
