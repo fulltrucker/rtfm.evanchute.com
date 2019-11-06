@@ -183,3 +183,15 @@ nathanvalderrama@gmail.com
   - Diamonds for decisions
 - Don't worry about UI elements... make these things dead simple and w/o design (this is disable)
 - Happiness meter (wait... what?)
+
+## Follup
+
+### Homework
+
+1. Refined Requirements (Text Doc)
+2. Userflow based on requirements (Drawing, document, .sketch, .xd, draw.io)
+
+### Resources
+
+A `.zip` archive of all resources can be [downloaded here](class-1-resource-files.zip).
+

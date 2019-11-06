@@ -27,17 +27,23 @@ Soup to nuts, industry standard UX/UI design tool. Does all the shit, but it has
 
 ### Adobe XD
 
-The biggest player in the design game's entry into the XD space, more intuitive than Sketch but scuttlebutt is that it's lacking in some features compared to other tools.
+The biggest player in the design game's entry into the XD space, more intuitive than Sketch but scuttlebutt is that it's lacking in some features compared to other tools. https://www.adobe.com/products/xd.html
 
 ### Figma
 
-Collaborative. New player on the block.
+Collaborative. New player on the block. Seems to be a lot of buzz around this tool. https://www.figma.com/
 
 ### UXPin
 
+I don't no nothing about this tool really, except that they sent me WAY to many emails. https://www.uxpin.com/
+
+### Draw.io
+
+Can be used for user workflows and diagramming. I think this is similar to Gliffy, which I've used for sitemaps, information diagrams, server infrastructure modeling, and shit like that there. https://www.draw.io/
+
 ### Balsamiq
 
-Great for quick and dirty lo-fi wireframing, with simple prototyping functionality. Not good (or really even possible to be used) for hi-fidelity UI design. Has a "sketch" display mode that make all elements look hand-drawn, so it's nice for early client presentations where you don't want the client to get hung up on design details. Use Balsamiq (Comic) Sans font for this.
+Great for quick and dirty lo-fi wireframing, with simple prototyping functionality. Not good (or really even possible to be used) for hi-fidelity UI design. Has a "sketch" display mode that make all elements look hand-drawn, so it's nice for early client presentations where you don't want the client to get hung up on design details. Use Balsamiq (Comic) Sans font for this. https://balsamiq.com/
 
 ### Adobe Creative Suite
 
