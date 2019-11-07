@@ -6,7 +6,13 @@ taxonomy:
 routes:
   canonical: /ux-ui-design/ux-ui-design-resources
 ---
-This will eventually need to be broken down by category, or something. But for now it can be a big-ass list.
+This will eventually need to be broken down to separate pages by category, or something. But for now it can be a big-ass list.
+
+## Education and Learning
+
+* [Digital Society School](https://digitalsocietyschool.org/)
+* [Design Method Toolkit](https://toolkits.dss.cloud/design/)
+* [The Encyclopedia of Human-Computer Interaction, 2nd Ed.](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/)
 
 ## UX/UI Design Tools
 
@@ -53,6 +59,8 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 
 ### Bootstrap
 
+* Bootstrap UI: https://getbootstrap.com/docs/3.4/components/
+* Bootstrap UI Sketch: https://www.sketchappsources.com/free-source/1768-bootstrap-v4-ui-kit-sketch-freebie-resource.html
 * http://bootflat.github.io/index.html
 * http://bootflat.github.io/color-picker.html
 * http://bootstrapuikit.com/
@@ -64,6 +72,7 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 * https://material.io/resources/
 * https://materialdesignkit.com/android-gui/
 * https://dribbble.com/tags/material_design
+* [Material Sketch Library](https://www.sketchappsources.com/free-source/874-material-design-google-sketch-freebie-resource.html)
 
 ### Semantic UI
 

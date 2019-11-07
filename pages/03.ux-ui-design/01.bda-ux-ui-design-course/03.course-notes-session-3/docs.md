@@ -14,6 +14,13 @@ routes:
 * Nathan says he believes that native iOS/Android apps are being taken over by web apps that run in a mobile browser.
   * Evan thinks there are still use cases for creating native apps, as they can potentially tap into more of the phone's capabilities
 
+#### From Class Slides
+
+* Responsive solves issues for different screensizes by fitting ui into different design grids. (Fluid, adapts to the size of the screen)
+* Adaptive solves issues for different screensizes by applying custom design states. (Static designs based on breakpoints)
+
+Read more here: https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/
+
 ### Common screen sizes
 
 * 320px — global standard for mobile, because the rest of the world has Android phones
@@ -49,19 +56,20 @@ We did a review of a few user personas created by the class members. Needing mor
 
 How specifically to test things, applying the above principals.
 
-1. App Description i.e. what is the thing we are looking at.
-1. Write out (script) questions that elicit a specific response e.g. Can you find where to add a user? What do you think you can do on this page? Since we're not testing prototypes (i.e. nothing is clickable) we need to prompt feedback about the features/functionality of each page or screen.
+1. **App Description** i.e. what is the thing we are looking at? Needed so the tester understands what they are testing… This is a trip itinerary app, or this is a garage sale finder app.
+1. **Write out (script) questions that elicit a specific response** e.g. Can you find where to add a user? What do you think you can do on this page? Since we're not testing prototypes (i.e. nothing is clickable) we need to prompt feedback about the features/functionality of each page or screen.
   * Start really broad ("What do you think you can do on this page") and then focus.
   * If you're ultimate goal is to sell them a pink shoe, you shouldn't start with "Can you buy a pink shoe on this page?"
-1. Document the feedback, always!
+1. **Document the feedback, always!** We need to record and document the user feedback, pain points, frustrations, zero states, wins, loses, improvements, observations
 
 ### Iterate, and test again
 
 1. Improve your questions/script during and after initial user-test. It's maybe okay to go "off script" as you need to, in order to react to or adjust based on issues discovered about usability.
 1. Edit/improve your documented research results
-  * Identify better UI components.
-  * workflow improvements -- e.g. too many or too few steps? where are we in the process of the flow?
-  * New feature(s) identified! Maybe the user says "Why can't it just do X?"
+  * Identify better UI components?
+  * Mobile or Desktop work needed?
+  * Workflow Improvements? e.g. too many or too few steps? where are we in the process of the flow?
+  * New (future) feature(s) identified? Maybe the user says "Why can't it just do X?"
   * Missing or unnecessary requirements!
 
 ### Processing Results
@@ -72,19 +80,98 @@ How specifically to test things, applying the above principals.
   * The quality of the testing will be related to the users doing the testing.
   * Test with actual users (or people that match your user personas) whenever possible.
 
+### Usability Testing (Class Slides)
+
+Usability testing is a technique used to evaluate a product by testing it on users
+
+**Moderator:**
+
+ - Inform the tester to be honest and be critical (Ask the user to talk out loud, talk-walk through process, I WANT TO HEAR YOUR THOUGHTS)
+ - Observation is more important than leading
+ - Identify areas that aren’t intuitive
+ - Pay attention the tester’s micro expressions and mood
+ - Document as they interact
+ - Open ended mind-frame (Don’t tell a tester where to click)
+ - Print out screens for note taking and in case there are internet issues
+
+**Session:**
+ - Document details about the user persona
+ - Simply brief the tester on what they are looking at (This is an agent toolkit)
+ - Complete script AND allow for documenting off-script discoveries
+ - Time-box sessions
+ - Follow-up questions (Was that easy or hard? 1-10)
+ - Remain neutral but helpful in case of technical road-bumps
+ - Run a test session before going live
+
+#### Example user testing script:
+
+1. Intro
+   - I am Nathan from RE/MAX, I would like to show you some new tech today so we can learn about it.
+   - This app is an Agent roster App
+   - How is your day going?
+   - I am going to ask you a series of questions, please be honest and provide critical feedback.
+   - Please speak outloud as you interact
+2. Test
+   - Here is the homepage, what do you think you can do on this page?
+   - How does this make you feel?
+   - Can you find a RE/MAX agent from your office?
+   - Can you send them a referral?
+   - What else can you do?
+   - Do you have the ability to contact the Agent you found?
+   - Is there enough information about this agent for you to understand if they are a good choice?
+3. Post test questions
+   - On a scale of 1-10, 10 being great and 1 being terrible, how would you rate thus app?
+   - Would you recommend this to a friend or co-worker
+   - Is there anything that stood out that you would like of me to know?
+
 ## Hi Fidelity Mockups
 
 * Take your wireframe, and create the pixel-perfect design including the finalized UI elements.
 * Make sure the aesthetic fits the brand, tone, etc.
-  * Rounded corners or not?
-  * Bright colors or muted?
-  * Big buttons or small?
-  * What style of photography? Photo treatments?
+   * Rounded corners or not?
+   * Bright colors or muted?
+   * Big buttons or small?
+   * What style of photography? Photo treatments?
 * Design patterns: the user has been taught to expect certain things to look a certain way, or be located in a certain place. Don't disappoint them.
-  * If you always put the CTA button in the bottom right, do that. Always.
-  * Use the same icon consistently for certain functionality e.g. a bookmark icon for saving a favorite.
-  * Colors should have meaning, and be used consistently.
+   * If you always put the CTA button in the bottom right, do that. Always.
+   * Use the same icon consistently for certain functionality e.g. a bookmark icon for saving a favorite.
+   * Colors should have meaning, and be used consistently.
 * All good art and design comes through research and finding inspiration. Go search for cool shit and re-use it.
+
+#### Wireframe example
+
+![wireframe example](Wireframe-Example.png)
+
+#### Hi-fidelity example
+
+![wireframe example](High-Fidelity-Example.png)
+
+## Creating Hifis 101 (Class Slides)
+
+- What is a Hifi… High-Fidelity Design (Pixel perfect representation of the final design)
+- Adding details to UI elements (Rounded, Shadows, Outline, Big, Small, Light, Dark, Exact Spacing, Ratios, Font Selection, Color Selection, Brand representation, Designing for User Types/Personas)
+- Emotion design (What are we designing for? Discovery site? Beauty product? New car? Rock climbing classes? Medical Application? Yoga Networking? ALL have different designs styles)
+- Design patterns; confirm and finalize (EX: All )
+- FIND influence… Remember Picasso’s beginnings, he imitated other masters before he himself became one
+   - No musician, artist, designer, creator, writer, chef, engineer, scientist, does this alone
+
+### Prepping for Hifi Mockups
+
+#### FontAwesome
+
+* Add FontAwesome to your computer's font library to access easy as icons and stuff
+
+#### Craft
+
+* Prototyping would be great in Craft
+* Sync to InVision
+
+#### Images
+
+Free stock image services that you can link up Sketch to:
+
+* Unsplash.com
+* Pexels.com
 
 ## Design Philosophy Stuff
 
@@ -114,27 +201,7 @@ https://stevenmsmith.com/ar-satir-change-model/
 
 ![Satir Change Model](http://www.stevenmsmith.com/images/satir_graph.png)
 
-## Prepping for Hifi Mockups
-
-### FontAwesome
-
-### Craft
-
-* Prototyping would be great in Craft
-* Sync to InVision
-
-### Images
-
-Free stock image services that you can link up Sketch to:
-
-* Unsplash.com
-* Pexels.com
-
 ## Homework for next week
 
 * Hi-fidelity mockups of our wireframes
-
-
-
-
 
