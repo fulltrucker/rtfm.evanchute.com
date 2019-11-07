@@ -59,6 +59,8 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 
 ### Bootstrap
 
+* Bootstrap UI: https://getbootstrap.com/docs/3.4/components/
+* Bootstrap UI Sketch: https://www.sketchappsources.com/free-source/1768-bootstrap-v4-ui-kit-sketch-freebie-resource.html
 * http://bootflat.github.io/index.html
 * http://bootflat.github.io/color-picker.html
 * http://bootstrapuikit.com/
@@ -70,6 +72,7 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
 * https://material.io/resources/
 * https://materialdesignkit.com/android-gui/
 * https://dribbble.com/tags/material_design
+* [Material Sketch Library](https://www.sketchappsources.com/free-source/874-material-design-google-sketch-freebie-resource.html)
 
 ### Semantic UI
 

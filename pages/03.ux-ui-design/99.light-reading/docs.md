@@ -28,4 +28,5 @@ routes:
 ### Best Practices
 
 * [Best Practices for Search](https://www.uxbooth.com/articles/best-practices-for-search/)
+* [Responsive Design vs. Adaptive Design: What’s the Best Choice for Designers?](https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-whats-best-choice-designers/)
 
