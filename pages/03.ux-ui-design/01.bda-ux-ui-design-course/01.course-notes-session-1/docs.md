@@ -195,3 +195,7 @@ nathanvalderrama@gmail.com
 
 A `.zip` archive of all resources can be [downloaded here](class-1-resource-files.zip).
 
+### Hand-written notes
+
+![Day 1 Notes](ux-ui-design-cert-program-notes-day-1.jpg)
+
