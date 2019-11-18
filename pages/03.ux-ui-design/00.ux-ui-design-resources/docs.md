@@ -26,6 +26,7 @@ Soup to nuts, industry standard UX/UI design tool. Does all the shit, but it has
 - https://www.google.com/search?q=sketch+plugins
 - https://sketchapphub.com/
 - https://sketchtalk.io/
+- https://designcode.io/ios11-ui-kit
 
 #### Make Sketch Great Again
 
@@ -117,4 +118,5 @@ Illustrator and Photoshop, mainly. No prototyping functionality, at least none t
   * https://toggl.com/app/timer Timer App UI, Create an account and use for timing projects. 
   * Count the UI Components for a fun game!
 * Denver Users: http://denveruxers.com/
+* Design Sprints: https://www.gv.com/sprint/
 

@@ -67,7 +67,28 @@ There was a lot of discussion about how to use Jira to plan sprints and scope of
 * Are the user needs met?
 * Are the business needs met?
 
+## A/B Testing
+
+* Control and variation
+* Using DATA you can do live production A/B testing by region, demographic, or whatever.
+* Can also be done 1-on-1 in a more "user testing" scenario (which we'll do today)
+
+## Dark Patterns
+
+* A dark pattern is a misleading or otherwise deceptive UI/UX decision that tries to exploit human psychology to get users to do things they don't really want to do.
+* https://www.darkpatterns.org/
+
+## Prototyping
+
+* Craft is badass
+* Use the simple prototyping function which is just linking to another screen/artboard
+* Neat transitions are neat
+
 ## Homework for next week
 
 * Prototypes
+* Type out what would go in a good portfolio in a text document
+  * Or do a user flow...
+  * ...and a wireframe...
+  * ...and a hifi prototype...
 

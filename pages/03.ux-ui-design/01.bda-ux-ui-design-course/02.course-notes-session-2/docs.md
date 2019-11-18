@@ -95,3 +95,7 @@ routes:
 
 [Click here](class-2-resource-files.zip) to download a `.zip` file with all the files Nathan sent us.
 
+### Hand-written Notes
+
+![day 2 hand written notes](ux-ui-design-cert-program-notes-day-2.jpg)
+

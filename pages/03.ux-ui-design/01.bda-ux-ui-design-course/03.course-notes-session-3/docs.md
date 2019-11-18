@@ -124,6 +124,14 @@ Usability testing is a technique used to evaluate a product by testing it on use
    - Would you recommend this to a friend or co-worker
    - Is there anything that stood out that you would like of me to know?
 
+#### Test-script
+
+![test script](ux-ui-design-cert-program-notes-day-3-test-script.jpg)
+
+#### Test notes
+
+![test notes](ux-ui-design-cert-program-notes-day-3-test-notes.jpg)
+
 ## Hi Fidelity Mockups
 
 * Take your wireframe, and create the pixel-perfect design including the finalized UI elements.
@@ -204,4 +212,6 @@ https://stevenmsmith.com/ar-satir-change-model/
 ## Homework for next week
 
 * Hi-fidelity mockups of our wireframes
+
+
 
