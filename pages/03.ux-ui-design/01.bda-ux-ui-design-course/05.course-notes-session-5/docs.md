@@ -138,3 +138,10 @@ If you're not improving your process or your product every single sprint, you're
 4. Walk me through your process for designing an MVP.
 5. Tell me about a non-UX experience and how that experience makes you a better UX designer?
 
+## Class Session Resources
+
+* [What defines a successful project](What defines a successful project.rtf)
+* [What makes a good portfolio](What makes a good portfolio.rtf)
+* [CreativeQA - Design Critique](CreativeQA - Design Critique.rtf)
+* [Interview Questions](Interview Questions.rtf)
+
