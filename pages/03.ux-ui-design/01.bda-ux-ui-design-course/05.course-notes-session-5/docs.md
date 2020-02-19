@@ -140,8 +140,8 @@ If you're not improving your process or your product every single sprint, you're
 
 ## Class Session Resources
 
-* [What defines a successful project](What defines a successful project.rtf)
-* [What makes a good portfolio](What makes a good portfolio.rtf)
-* [CreativeQA - Design Critique](CreativeQA - Design Critique.rtf)
-* [Interview Questions](Interview Questions.rtf)
+* [What defines a successful project](What-defines-a-successful-project.rtf)
+* [What makes a good portfolio](What-makes-a-good-portfolio.rtf)
+* [CreativeQA - Design Critique](CreativeQA-Design-Critique.rtf)
+* [Interview Questions](Interview-Questions.rtf)
 
