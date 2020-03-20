@@ -14,7 +14,7 @@ This will eventually need to be broken down to separate pages by category, or so
 * [Design Method Toolkit](https://toolkits.dss.cloud/design/)
 * [The Encyclopedia of Human-Computer Interaction, 2nd Ed.](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/)
 
-## UX/UI Design Tools
+## UX/UI Design and Prototyping Tools
 
 ### Sketch
 
@@ -53,6 +53,14 @@ Can be used for user workflows and diagramming. I think this is similar to Gliff
 ### Balsamiq
 
 Great for quick and dirty lo-fi wireframing, with simple prototyping functionality. Not good (or really even possible to be used) for hi-fidelity UI design. Has a "sketch" display mode that make all elements look hand-drawn, so it's nice for early client presentations where you don't want the client to get hung up on design details. Use Balsamiq (Comic) Sans font for this. https://balsamiq.com/
+
+### Framer
+
+This looks like a friggin' sweet bit of software, the prototyping looks next level. https://www.framer.com/
+
+### Marvel
+
+Supposed to be easy to learn and use, but not as powerful. https://marvelapp.com/
 
 ### Adobe Creative Suite
 
