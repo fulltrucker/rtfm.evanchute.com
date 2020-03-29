@@ -41,7 +41,7 @@ Read more here: https://www.uxpin.com/studio/blog/responsive-vs-adaptive-design-
 
 ## User Personas
 
-We did a review of a few user personas created by the class members. Needing more detailed demographics was a common piece of feedback. Anything that either confirms or clarifies an assumption a designer might have about a user are good e.g. a designer not in the know about marijuana users might think all pot users are inactive, but the user research might show that they are actually very active.
+We did a review of a few user personas created by the class members. Needing more detailed demographics was a common piece of feedback. Anything that either confirms or clarifies an assumption a designer might have about a user are good e.g. a designer not in the know about marijuana users might think all pot users are physically inactive, but the user research might show that they are actually very active.
 
 ## Usability Testing
 

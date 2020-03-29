@@ -26,7 +26,6 @@ routes:
   - One product
   - Shows the details
   - Example: https://soylent.com/products/drink-cacao PDP Page (Ecommerce, Product Display Page). Count the UI Components!
-  
 - Zero State == a page or element where nothing happens
   - 404 pages
   - Empty Shopping Carts
@@ -34,11 +33,8 @@ routes:
     - https://medium.com/rareview/ui-design-for-empty-states-zero-data-and-on-boarding-264cdb92826e
     - https://dribbble.com/tags/zero_state
     - https://www.toptal.com/designers/ux/empty-state-ux-design
-  
 - Number Spinner == UI element to input a number, with +/- buttons
-
-  ![Number Spinner Example](https://www.jqueryscript.net/images/User-Friendly-Number-Input-Spinner-with-jQuery-Bootstrap.jpg)
-
+![Number Spinner Example](https://www.jqueryscript.net/images/User-Friendly-Number-Input-Spinner-with-jQuery-Bootstrap.jpg)
 - Types of Menu Icons
   - Bento
   - Hamburger
@@ -46,7 +42,6 @@ routes:
   - Meatball
   - Kebab
   - Döner
-
 ![Types of Menu Icons](https://d33wubrfki0l68.cloudfront.net/ee15251fa276034aad0ff32c8abe6b7e013ee206/57dde/en/blog/uploads/bento-menu-ui-element.png)
 
 ## Types of UI Elements
@@ -72,7 +67,7 @@ routes:
 
 - **Purpose:** to completely define who we are designing for.
 - User Personas be like…
-  - *"Let’s create some **“fake people”** and think what they would think while using our product!"*
+  - *"Let’s create some **‘fake people’** and pretend to think what they might think while using our product!"*
   - https://uxdesign.cc/ux-has-pretty-bad-ux-fd2702e5c22a
 - Lots of persona categories out there (see hand-out), a "good" persona probably uses 5-7 categories (there's that fucking law again...)
 - **Demographics:** Get a bunch of numbers, see where they live and how old they are

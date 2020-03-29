@@ -8,9 +8,9 @@ routes:
 ---
 ## Overview
 
-**Nathan Valderrama**
-*Instructor*
-nathanvalderrama@gmail.com
+**Nathan Valderrama** <br/>
+*Instructor* <br/>
+[nathanvalderrama@gmail.com](mailto:nathanvalderrama@gmail.com)
 
 **Introductions:**
 
@@ -22,9 +22,7 @@ nathanvalderrama@gmail.com
 ## General stuff and things
 
 - Story from Nathan regarding the shadow program at Boulder Running Club
-
 - Credibility is becoming a large thing. The trend is coming back that reviews are really helpful. Reviews don't generate themselves, actually. You need to prompt people to leave the reviews... you have to ask for them!
-
 - **Moore's Law** is applicable to how fast UI/UX tech, jobs, etc. are moving right now. Everything is exponential. There was a story about the inventor of Chess playing a game against the Chinese emperor.
 - **Jakob's Law** is that we use what already works because the user already knows how to use it, they spend more time on other websites than yours. See below
 - Best way to learn in this industry is peer-to-peer learning and knowledge
@@ -184,7 +182,7 @@ nathanvalderrama@gmail.com
 - Don't worry about UI elements... make these things dead simple and w/o design (this is disable)
 - Happiness meter (wait... what?)
 
-## Follup
+## Follow-up
 
 ### Homework
 
