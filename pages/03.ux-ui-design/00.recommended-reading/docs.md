@@ -81,12 +81,6 @@ These are specific articles about atomic ideas or concepts, probably found on on
 
 #### Jargon, Vernacular, and Concepts
 
-- [Digital Society School](https://digitalsocietyschool.org/)
-- [Design Method Toolkit](https://toolkits.dss.cloud/design/)
-- [The Encyclopedia of Human-Computer Interaction, 2nd Ed.](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/)
-
-#### Jargon, Vernacular, and Concepts
-
 * [32 User Interface Elements For UI Designers: Your Ultimate Glossary](https://careerfoundry.com/en/blog/ui-design/ui-element-glossary/)
 * [A list of design concepts every UX/UI designer should learn](https://uxdesign.cc/a-list-of-design-concepts-every-ux-ui-designer-should-learn-7e2d8412b391)
 * [The book that pushed my design skills to the next level in 2017](https://blog.prototypr.io/the-one-book-that-ive-read-in-2017-that-pushed-my-design-skills-further-1876ed670b6d)
