@@ -99,6 +99,7 @@ These are specific articles about atomic ideas or concepts, probably found on on
 * [The Encyclopedia of Human-Computer Interaction, 2nd Ed.](https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/)
 * [UX has bad UX](https://uxdesign.cc/ux-has-pretty-bad-ux-fd2702e5c22a)
 * [50 Best Resources for UI / UX Professionals](https://uxplanet.org/50-best-resources-for-ui-ux-professionals-c29daf36cd85)
+* [Top 19 books anyone in UX must read in 2020 (designers, writers and researchers)](http://uxwritinghub.com/top-ux-books/)
 
 #### Best Practices
 
