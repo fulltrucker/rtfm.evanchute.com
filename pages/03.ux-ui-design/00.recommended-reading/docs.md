@@ -12,6 +12,7 @@ I try to keep an [Amazon idea list of UX design books](https://www.amazon.com/id
 
 * [The Design of Everyday Things: Revised and Expanded Edition](https://www.amazon.com/dp/0465050654/)
 * [Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability (3rd Edition) (Voices That Matter)](https://www.amazon.com/dp/0321965515/?ref=idea_lv_dp_ov_d)
+* [Emotional Design: Why We Love (Or Hate) Everyday Things](https://www.nngroup.com/books/emotional-design/)
 * [Lean UX: Designing Great Products with Agile Teams](https://www.amazon.com/dp/1491953608/?ref=idea_lv_dp_ov_d)
 * [Mapping Experiences: A Complete Guide to Creating Value through Journeys, Blueprints, and Diagrams](https://www.amazon.com/dp/1491923539/)
 * [SPRINT](https://www.amazon.com/dp/0593076117/)
@@ -89,6 +90,7 @@ These are specific articles about atomic ideas or concepts, probably found on on
 
 * https://www.interaction-design.org/literature/topics/graphic-design
 * [4 things I wish I knew before making the shift from Graphic Design to UX Design](https://uxdesign.cc/3-things-i-wish-i-knew-before-i-made-the-shift-from-graphic-design-to-ux-design-655af468c923)
+* [The Art of Emotion — Norman’s 3 Levels of Emotional Design](https://medium.muz.li/the-art-of-emotion-normans-3-levels-of-emotional-design-88a1fb495b1d)
 
 #### Coding and Development
 
