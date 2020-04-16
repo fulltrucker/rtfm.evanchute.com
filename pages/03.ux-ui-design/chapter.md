@@ -9,6 +9,8 @@ routes:
 
 # UX/UI Design
 
+**“When I am working on a problem, I never think about beauty but when I have finished, if the solution is not beautiful, I know it is wrong.”** *– R. Buckminster Fuller*
+
 So I was going through the notes of the UX/UI Design class I am taking, and this happened...
 
 ![Adding Sketch to my Dock](keep-sketch-in-dock.png)
