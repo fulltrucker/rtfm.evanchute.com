@@ -8,6 +8,10 @@ routes:
 ---
 This is probably (definitely) not a complete list, but has the highlights of the most popular stuff. I think. Maybe.
 
+## Woah, that's a big list
+
+* [hoard.fyi](https://hoard.fyi/) - A mix of free and premium tools and resources for people who make websites. Curated for quality then meticulously organised for your browsing pleasure. Updated daily!
+
 ## Sketch
 
 Soup to nuts, industry standard UX/UI design tool. Does all the shit, but it has some weird nuances.

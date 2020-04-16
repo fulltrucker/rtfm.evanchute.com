@@ -13,4 +13,5 @@ Clearly this is the junk drawer of this section. All the random resources that d
   * Count the UI Components for a fun game!
 * Denver UXers: http://denveruxers.com/
 * Design Sprints: https://www.gv.com/sprint/
+* [hoard.fyi](https://hoard.fyi/) - A mix of free and premium tools and resources for people who make websites. Curated for quality then meticulously organised for your browsing pleasure. Updated daily!
 
