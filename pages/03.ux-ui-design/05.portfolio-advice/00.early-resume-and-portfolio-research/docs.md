@@ -78,7 +78,7 @@ https://www.google.com/search?q=skill+focused+resume&ie=UTF-8&oe=UTF-8&hl=en-us&
 
 Apparently I invented something that already exists:
 
-![I Invented the Functional Resume](/Users/evanchute/Sites/Evan Chute RTFM/user/pages/03.ux-ui-design/05.portfolio-advice/00.early-resume-and-portfolio-research/IMG_8008.jpg)
+![I Invented the Functional Resume](IMG_8008.jpg)
 
 ## Resume Examples
 
