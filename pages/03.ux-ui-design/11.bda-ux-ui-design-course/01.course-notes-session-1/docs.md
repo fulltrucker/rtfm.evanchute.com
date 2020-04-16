@@ -10,7 +10,6 @@ routes:
 
 **Nathan Valderrama** <br/>
 *Instructor* <br/>
-[nathanvalderrama@gmail.com](mailto:nathanvalderrama@gmail.com)
 
 **Introductions:**
 
