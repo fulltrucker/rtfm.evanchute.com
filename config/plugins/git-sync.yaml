@@ -23,7 +23,9 @@ git:
   name: 'Evan Chute'
   email: evan.chute@gmail.com
   bin: git
+  message: '(Grav GitSync) Automatic Commit'
 logging: false
 repository: 'https://github.com/fulltrucker/rtfm.evanchute.com'
 user: fulltrucker
-password: gitsync-def5020085db42f2231e5e8e341cddfa34092d70a3c8fd95a4f2d82a1c3bbcf002fe6c9c2efde70a1cd50ae3788ea7bd0d2f7a50fa5aca84fc4e474f1fd47502f93ff367e5860b4f1a38dd512f4460926f9a2126e9d1d2a020fb7fdfc8c7b0178ba1c4c6
+password: gitsync-def502004411936d0898a3052d499d7491d4b691ed1709f1d6ae6ba1289d8271aaeaf9489db412c13b5fc1f5174c2fea54e196bb471350c18638f270b0909af55872724dd5f753e74cc318f648dc745e463a6ec0a7e892c5edb42c32b3f377376762e36d65de66c6f144bb4efd5fecea25323e22b5b6e684073375fb
+local_repository: null
