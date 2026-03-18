@@ -29,3 +29,5 @@ Also right now, I'm the only one maintaining this Bad Larry, but who knows what 
 This guide is collaboratively written, edited, and curated by My Own Damn Self™.
 
 ![Sunglasseses](sunglasses-sunglasses.gif)
+
+Does this sync to Github?
